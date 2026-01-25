@@ -20,8 +20,8 @@ Ce type d’opération fait partie des tâches quotidiennes d’un support IT / 
 3. Cliquer sur Nouvel(le) utilisateur(-trice)
 4. Sélectionner Créer un utilisateur
 
-![](screenshots/E[ntra-Id.png](https://github.com/MiloudLar99/M365-Enterprise-Use-Cases/blob/main/01-M365-User-and-Access-Management/Create%20users/Screenshots/Entra-Id.png))
-![](screenshots/Create-User.png)
+![](Screenshots/Entra-Id.png)
+![](Screenshots/Create-User.png)
 
 
 ## Étape 2 – Renseigner les informations de base
@@ -37,7 +37,7 @@ Pa55w0r.d.
 5. Compte activé :
 Activé
 
-![](./screenshots/Account-User.png)
+![](./Screenshots/Account-User.png)
 
 ## Étape 3 – Configurer les propriétés de l’utilisateur
 - Dans l’onglet Propriétés, renseigner les informations professionnelles :
@@ -52,15 +52,15 @@ Activé
 - Lieu d’utilisation : États-Unis
 Ces informations facilitent la gestion des utilisateurs et peuvent être utilisées pour des règles de sécurité ou d’attribution.
 
-![](./screenshots/Info-User.png)
-![](./screenshots/Liu-d'utilisation.png)
+![](./Screenshots/Info-User.png)
+![](./Screenshots/Liu-d'utilisation.png)
 
 ## Étape 4 – Vérifier et créer l’utilisateur
 1. Accéder à l’onglet Vérifier + créer
 2. Vérifier l’exactitude des informations saisies
 3. Cliquer sur Créer
    
-![](./screenshots/Description-User-Fin.png)
+![](./Screenshots/Description-User-Fin.png)
 
 ## Étape 5 – Vérification dans la liste des utilisateurs
 
@@ -72,7 +72,7 @@ Après la création :
 - Domaine : LabsM365.onmicrosoft.com
 - Compte actif
   
-![](./screenshots/User-Created.png)
+![](./Screenshots/User-Created.png)
 
 ## Résultat final
 
@@ -95,7 +95,7 @@ Après la création de l’utilisateur, cette étape consiste à lui attribuer u
 1. Cliquer sur Affecter des licences
 2. Une fenêtre latérale s’ouvre pour sélectionner les utilisateurs
    
-![](./screenshots/Add-License.png)
+![](./Screenshots/Add-License.png)
 
 ## Étape 3 – Sélectionner l’utilisateur
 Dans la fenêtre Attribuer des licences aux utilisateurs :
@@ -106,7 +106,7 @@ Dans la fenêtre Attribuer des licences aux utilisateurs :
 5. Cliquer sur Attribuer des licences
 6. Attendre la confirmation de l’opération
 
-![](./screenshots/Add-License2.png)
+![](./Screenshots/Add-License2.png)
 
 
 ## Étape 5 – Vérification de l’attribution
@@ -115,7 +115,7 @@ Une fois l’opération terminée :
 - L’utilisateur apparaît dans la liste des utilisateurs licenciés
 - Le nombre de licences utilisées est mis à jour
 
-![](./screenshots/License-Added.png)
+![](./Screenshots/License-Added.png)
 
 ## Résultat final
 - La licence Office 365 E5 EEE (sans Teams) a été attribuée avec succès
