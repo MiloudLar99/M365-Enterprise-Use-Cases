@@ -20,7 +20,7 @@ Ce type d’opération fait partie des tâches quotidiennes d’un support IT / 
 3. Cliquer sur Nouvel(le) utilisateur(-trice)
 4. Sélectionner Créer un utilisateur
 
-![](./screenshots/Entra-Id.png)   
+![](/screenshots/Entra-Id.png)   
 ![](./screenshots/Create-User.png)
 
 
