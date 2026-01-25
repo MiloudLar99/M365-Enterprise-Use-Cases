@@ -21,7 +21,7 @@ Ce type d’opération fait partie des tâches quotidiennes d’un support IT / 
 4. Sélectionner Créer un utilisateur
 
 ![](../screenshots/Entra-Id.png)   
-![](./screenshots/Create-User.png)
+![](screenshots/Create-User.png)
 
 
 ## Étape 2 – Renseigner les informations de base
