@@ -95,7 +95,7 @@ Après la création de l’utilisateur, cette étape consiste à lui attribuer u
 1. Cliquer sur Affecter des licences
 2. Une fenêtre latérale s’ouvre pour sélectionner les utilisateurs
    
-![](../screenshots/User-Created.png)
+![](./screenshots/Add-License.png)
 
 ## Étape 3 – Sélectionner l’utilisateur
 Dans la fenêtre Attribuer des licences aux utilisateurs :
@@ -103,14 +103,11 @@ Dans la fenêtre Attribuer des licences aux utilisateurs :
 2. Sélectionner l’utilisateur
 3. Vérifier que la licence Office 365 E5 EEE (sans Teams) est bien sélectionnée
 4. Laisser les applications et services par défaut
+5. Cliquer sur Attribuer des licences
+6. Attendre la confirmation de l’opération
 
-![](../screenshots/User-Created.png)
+![](./screenshots/Add-License2.png)
 
-## Étape 4 – Attribuer la licence
-1. Cliquer sur Attribuer des licences
-2. Attendre la confirmation de l’opération
-
-![](../screenshots/User-Created.png)
 
 ## Étape 5 – Vérification de l’attribution
 Une fois l’opération terminée :
@@ -118,7 +115,7 @@ Une fois l’opération terminée :
 - L’utilisateur apparaît dans la liste des utilisateurs licenciés
 - Le nombre de licences utilisées est mis à jour
 
-![](../screenshots/User-Created.png)
+![](./screenshots/License-Added.png)
 
 ## Résultat final
 - La licence Office 365 E5 EEE (sans Teams) a été attribuée avec succès
