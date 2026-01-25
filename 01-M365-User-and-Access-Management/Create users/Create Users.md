@@ -20,7 +20,7 @@ Ce type d’opération fait partie des tâches quotidiennes d’un support IT / 
 3. Cliquer sur Nouvel(le) utilisateur(-trice)
 4. Sélectionner Créer un utilisateur
 
-![](screenshots/E[ntra-Id.png](https://github.com/MiloudLar99/M365-Enterprise-Use-Cases/blob/main/01-M365-User-and-Access-Management/Create%20users/Screenshots/Entra-Id.png))   
+![](screenshots/E[ntra-Id.png](https://github.com/MiloudLar99/M365-Enterprise-Use-Cases/blob/main/01-M365-User-and-Access-Management/Create%20users/Screenshots/Entra-Id.png))
 ![](screenshots/Create-User.png)
 
 
