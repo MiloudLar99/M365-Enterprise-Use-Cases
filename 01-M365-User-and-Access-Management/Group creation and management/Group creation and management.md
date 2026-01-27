@@ -72,5 +72,4 @@ Une fois le groupe créé :
 - Microsoft Entra ID
 - Gestion des groupes de sécurité
 - Gouvernance des identités
-- Documentation IT orientée entreprise
 
