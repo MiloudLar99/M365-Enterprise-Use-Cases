@@ -18,6 +18,7 @@ Le groupe sera nommé :
 2. Naviguer vers : Groupes → Tous les groupes
 3. Cliquer sur « Nouveau groupe »
 
+![](Screenshots/Entra-Overview.png)
 ![](Screenshots/New-Group-Start.png)
 
 ## Étape 2 – Informations de base du groupe
@@ -29,20 +30,18 @@ Renseigner les informations suivantes :
 
 ![](Screenshots/New-Group-Basic-Information.png)
 
-## Étape 3 – Ajouter un propriétaire
+## Étape 3 – Ajouter un propriétaire et un membre
 1. Cliquer sur Propriétaires
 2. Sélectionner l’utilisateur El Miloud Larhlid
+3. Cliquer sur Sélectionner
+4. Cliquer sur Membres
+2. Rechercher et sélectionner John Doe
 3. Cliquer sur Sélectionner
  ### Le propriétaire est responsable de la gestion du groupe.
 
 ![](Screenshots/Add-Group-Owners.png)
 
-## Étape 4 – Ajouter des membres au groupe
-1. Cliquer sur Membres
-2. Rechercher et sélectionner John Doe
-3. Cliquer sur Sélectionner
-
-![](Screenshots/Add-Group-Members.png)
+![](Screenshots/Add-Member.png)
 
 ## Étape 5 – Vérification avant création
   Avant de finaliser, vérifier :
@@ -62,8 +61,12 @@ Une fois le groupe créé :
      - le type de groupe,
      - l’appartenance,
      - l’ID d’objet.
+     - Liste des membres.
 
 ![](Screenshots/Group-Review.png)
+
+![](Screenshots/Groups-List.png)
+
 
 ## Compétences démontrées
 - Microsoft Entra ID
