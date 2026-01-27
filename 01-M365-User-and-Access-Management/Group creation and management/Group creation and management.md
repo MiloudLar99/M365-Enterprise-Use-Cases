@@ -18,7 +18,7 @@ Le groupe sera nommé :
 2. Naviguer vers : Groupes → Tous les groupes
 3. Cliquer sur « Nouveau groupe »
 
-# Captura
+![](Screenshots/New-Group-Start.png)
 
 ## Étape 2 – Informations de base du groupe
 Renseigner les informations suivantes :
@@ -27,24 +27,32 @@ Renseigner les informations suivantes :
 - Description : Security group for users with the Administrative Assistant role
 - Type d’appartenance : Affecté
 
+![](Screenshots/New-Group-Basic-Information.png)
+
 ## Étape 3 – Ajouter un propriétaire
 1. Cliquer sur Propriétaires
 2. Sélectionner l’utilisateur El Miloud Larhlid
 3. Cliquer sur Sélectionner
  ### Le propriétaire est responsable de la gestion du groupe.
 
+![](Screenshots/Add-Group-Owners.png)
+
 ## Étape 4 – Ajouter des membres au groupe
 1. Cliquer sur Membres
 2. Rechercher et sélectionner John Doe
 3. Cliquer sur Sélectionner
- 
-  ## Étape 5 – Vérification avant création
+
+![](Screenshots/Add-Group-Members.png)
+
+## Étape 5 – Vérification avant création
   Avant de finaliser, vérifier :
 - le nom du groupe,
 - le type (Sécurité),
 - le propriétaire,
 - les membres.
 Puis cliquer sur Créer. 
+
+![](Screenshots/Group-Review-Before-Creation.png)
 
 ## Étape 6 – Vérification dans la liste des groupes
 Une fois le groupe créé :
@@ -54,6 +62,8 @@ Une fois le groupe créé :
      - le type de groupe,
      - l’appartenance,
      - l’ID d’objet.
+
+![](Screenshots/Groups-List.png)
 
 ## Compétences démontrées
 - Microsoft Entra ID
