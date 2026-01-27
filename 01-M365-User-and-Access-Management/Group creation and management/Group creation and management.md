@@ -63,7 +63,7 @@ Une fois le groupe créé :
      - l’appartenance,
      - l’ID d’objet.
 
-![](Screenshots/Groups-List.png)
+![](Screenshots/Group-Review.png)
 
 ## Compétences démontrées
 - Microsoft Entra ID
