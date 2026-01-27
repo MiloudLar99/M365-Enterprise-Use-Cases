@@ -27,16 +27,16 @@ Renseigner les informations suivantes :
 - Description : Security group for users with the Administrative Assistant role
 - Type d’appartenance : Affecté
 
-  ## Étape 3 – Ajouter un propriétaire
-  1. Cliquer sur Propriétaires
-  2. Sélectionner l’utilisateur El Miloud Larhlid
-  3. Cliquer sur Sélectionner
-  ### Le propriétaire est responsable de la gestion du groupe.
+## Étape 3 – Ajouter un propriétaire
+1. Cliquer sur Propriétaires
+2. Sélectionner l’utilisateur El Miloud Larhlid
+3. Cliquer sur Sélectionner
+ ### Le propriétaire est responsable de la gestion du groupe.
 
-  ## Étape 4 – Ajouter des membres au groupe
-  1. Cliquer sur Membres
-  2. Rechercher et sélectionner John Doe
-  3. Cliquer sur Sélectionner
+## Étape 4 – Ajouter des membres au groupe
+1. Cliquer sur Membres
+2. Rechercher et sélectionner John Doe
+3. Cliquer sur Sélectionner
  
   ## Étape 5 – Vérification avant création
   Avant de finaliser, vérifier :
