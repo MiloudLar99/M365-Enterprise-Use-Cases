@@ -44,7 +44,7 @@ Un message confirme que :
 
 
 ### Compétences démontrées
-Gestion des identités dans Microsoft Entra ID
-Support utilisateur Microsoft 365
-Sécurité des accès
-Procédure standard IT Support (N1 / N2)
+- Gestion des identités dans Microsoft Entra ID
+- Support utilisateur Microsoft 365
+- Sécurité des accès
+- Procédure standard IT Support (N1 / N2)
