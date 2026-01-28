@@ -27,19 +27,24 @@ Dans la barre d’actions en haut :
 2. Confirmer l’action
 📸 Capture : 03-reset-password-option.png
 
+![](Screenshots/03-reset-password-option.png)
+
 ## Étape 4 – Génération du mot de passe temporaire
 Le système génère automatiquement un mot de passe temporaire.
   - Ce mot de passe doit être communiqué à l’utilisateur de manière sécurisée
   - L’utilisateur sera obligé de le modifier lors de la prochaine connexion
 📸 Capture : 04-temporary-password-generated.png
+![](Screenshots/04-temporary-password-generated.png)
 
-## Étape 5 – Confirmation de la réinitialisation
+## Étape 5 – Confirmation de la réinitialisation
 Un message confirme que :
   - Le mot de passe a été réinitialisé avec succès
   - L’utilisateur peut de nouveau se connecter
 📸 Capture : 05-password-reset-success.png
+![](Screenshots/05-password-reset-success.png)
 
-### Compétences démontrées
+
+### Compétences démontrées
 Gestion des identités dans Microsoft Entra ID
 Support utilisateur Microsoft 365
 Sécurité des accès
