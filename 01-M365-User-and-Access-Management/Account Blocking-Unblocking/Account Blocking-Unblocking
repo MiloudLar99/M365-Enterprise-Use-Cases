@@ -16,21 +16,21 @@ Depuis le portail Microsoft Entra :
   2. Cliquer sur Utilisateurs
   3. Sélectionner l’utilisateur concerné (John Doe)
 
-![](Screenshots/01-users-list.png)
+ ![](Screenshots/01-users-list.png)
 
 ## Étape 2 – Vérifier l’état initial du compte
 Dans la vue d’ensemble de l’utilisateur :
 Le compte est Actif
 L’utilisateur peut se connecter normalement
 
-![](Screenshots/02-user-overview-active.png)
+ ![](Screenshots/02-user-overview-active.png)
 
 ## Étape 3 – Modifier l’état du compte
 Cliquer sur Modifier
 Accéder aux Propriétés
 Localiser le paramètre Compte actif (accountEnabled)
 
-![](Screenshots/03-account-enabled-true.png)
+ ![](Screenshots/03-account-enabled-true.png)
 
 ## Étape 4 – Bloquer le compte utilisateur
 Désactiver l’option Compte actif
