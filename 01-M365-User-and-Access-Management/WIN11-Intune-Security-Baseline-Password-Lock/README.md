@@ -1,5 +1,5 @@
 # Lab – Sécurisation minimale Windows 11 (Password & Lock) avec Intune
-## Objectif
+## Objectif
 Mettre en place une stratégie de sécurité minimale sur des appareils Windows 11 via Microsoft Intune, en configurant :
   - Le mot de passe de l’appareil
   - Les règles de verrouillage
