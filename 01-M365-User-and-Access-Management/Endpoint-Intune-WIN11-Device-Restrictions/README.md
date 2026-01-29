@@ -11,10 +11,10 @@ Un poste Windows 11 joint à Microsoft Entra ID et enrôlé dans Intune
 
 ## Étape 1 – Accéder à la configuration des appareils dans Intune
 Depuis le Centre d’administration Microsoft Intune :
-Aller dans Appareils
-Cliquer sur Configuration
-Sélectionner l’onglet Stratégies
-Cliquer sur Créer
+ - Aller dans Appareils
+ - Cliquer sur Configuration
+ - Sélectionner l’onglet Stratégies
+ - Cliquer sur Créer
 
  ![](Screenshots/01-Intune-Devices-Configuration-Overview.png) 
 
@@ -22,19 +22,20 @@ Cliquer sur Créer
 
 ## Étape 2 – Créer un nouveau profil de configuration
 Lors de la création du profil :
-Plateforme : Windows 10 et versions ultérieures
-Type de profil : Modèles
-Nom du modèle : Restrictions d’appareil
+ - Plateforme : Windows 10 et versions ultérieures
+ - Type de profil : Modèles
+ - Nom du modèle : Restrictions d’appareil
+ - Cliquer sur Créer pour continuer.
 
  ![](Screenshots/02-Intune-Create-Device-Configuration-Profile.png) 
 
-- Cliquer sur Créer pour continuer.
+
 
 ## Étape 3 – Informations de base du profil
 Renseigner les informations suivantes :
-Nom : WIN11 – Baseline – Device Restrictions
-Description :
-Basic Intune configuration policy to apply standard device restrictions on Windows 11 devices.
+ - Nom : WIN11 – Baseline – Device Restrictions
+ - Description :
+ - Basic Intune configuration policy to apply standard device restrictions on Windows 11 devices.
 
  ![](Screenshots/03-Intune-Device-Restrictions-Baseline-Details.png)  
 
@@ -42,15 +43,15 @@ Basic Intune configuration policy to apply standard device restrictions on Windo
 
 ## Étape 4 – Configuration des restrictions d’appareil
 Dans la section Paramètres de configuration, configurer les catégories nécessaires, par exemple :
-Système : Bloquer
-Réseau et Internet : Bloquer
-Personnalisation : Bloquer
-Applications : Bloquer
-Comptes : Bloquer
+ - Système : Bloquer
+ - Réseau et Internet : Bloquer
+ - Personnalisation : Bloquer
+ - Applications : Bloquer
+ - Comptes : Bloquer
 
 
  ![](Screenshots/04-Intune-Device-Restrictions-Settings.png)  
- ![](Screenshots/04.1Intune-Device-Restrictions-Settings-Details.png)  
+ ![](Screenshots/04.1-Intune-Device-Restrictions-Settings-Details.png)  
 
 ### Ces paramètres permettent de renforcer la posture de sécurité des postes utilisateurs.
 Cliquer sur Réviser + enregistrer.
