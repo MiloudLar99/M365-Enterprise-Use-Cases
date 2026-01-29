@@ -63,36 +63,36 @@ Cliquer sur Réviser + enregistrer.
  - Sélectionner le groupe : SG-Administrative-Assistants
  - Valider la sélection
 
+ ![](Screenshots/05-EntraID-Security-Group-Members.png) 
+
  ![](Screenshots/04-Intune-Device-Restrictions-Settings.png)  
 
-?? ![](Screenshots/05-EntraID-Security-Group-Members.png)  
-
-?? ![](Screenshots/06-Intune-Assign-Policy-To-Security-Group.png)  
+ 
 
 ### Ce profil sera appliqué à tous les membres du groupe ciblé.
 
 ## Étape 6 – Règles d’applicabilité
 Dans cette étape, aucune règle spécifique n’est définie.
-
-![](Screenshots/07-Intune-Applicability-Rules.png)
 Cliquer sur Suivant pour continuer.
 
+![](Screenshots/06-Intune-Assign-Policy-To-Security-Group.png)  
+
 ## Étape 7 – Vérification et création
-Vérifier le résumé de la stratégie :
-Nom et description
-Plateforme ciblée
-Paramètres configurés
-Groupe assigné
+ - Vérifier le résumé de la stratégie :
+ - Nom et description
+ - Plateforme ciblée
+ - Paramètres configurés
+ - Groupe assigné
+ - Cliquer sur Créer pour déployer la stratégie.
 
-![](Screenshots/08-Intune-Policy-Review-Summary.png)
-
-Cliquer sur Créer pour déployer la stratégie.
+![](Screenshots/07-Intune-Applicability-Rules.png)
 
 ## Étape 8 – Ajout de l’utilisateur Entra ID au groupe local RDP (Azure VM)
 Depuis le portail Microsoft Azure, sur la machine virtuelle Windows :
 Ouvrir Exécuter la commande
 Lancer un script PowerShell pour ajouter l’utilisateur Entra ID au groupe Remote Desktop Users
 
+![](Screenshots/08-Intune-Policy-Review-Summary.png)
 ![](Screenshots/09-Azure-VM-Run-Command-Add-RDP-User.png)
 
 ### Cette étape permet d’autoriser l’accès RDP à l’utilisateur synchronisé depuis Entra ID.
