@@ -15,41 +15,41 @@ Le poste est actuellement configuré avec un compte local.
 ## Étape 1 – Accéder au menu Démarrer
 Cliquer sur le bouton Démarrer de Windows
 Vérifier que le poste est connecté avec un compte local
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/01_StartMenu_LocalAccount.png)
 
 ## Étape 2 – Ouvrir les paramètres de comptes
 Ouvrir Paramètres
 Aller dans Comptes
 Sélectionner Accès professionnel ou scolaire
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/02_WindowsSettings_Accounts.png)
 
 ## Étape 3 – Ajouter un compte professionnel
 Cliquer sur Se connecter
 Choisir Ajouter un compte professionnel ou scolaire
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/03_AccessWorkOrSchool_Settings.png)
 
 ## Étape 4 – Saisir l’adresse professionnelle
 Entrer l’adresse e-mail :
 john.doe@LabsM365.onmicrosoft.com
 Cliquer sur Suivant
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/04_AddWorkOrSchoolAccount.png)
 
 ## Étape 5 – Mise à jour du mot de passe
 Lors de la première connexion, l’utilisateur est invité à mettre à jour son mot de passe.
 Saisir l’ancien mot de passe
 Définir un nouveau mot de passe conforme à la politique de sécurité
 Cliquer sur Se connecter
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/05_EnterWorkAccountEmail.png)
 
 ## Étape 6 – Compte ajouté avec succès
 Un message confirme que le compte professionnel a été ajouté au poste.
 Le poste a désormais accès aux ressources de l’organisation.
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/06_FirstSignIn_UpdatePassword.png)
 
 ## Étape 7 – Vérification dans Windows
 Revenir dans Paramètres → Comptes → Accès professionnel ou scolaire
 Vérifier que le compte john.doe@LabsM365.onmicrosoft.com apparaît bien
- ![](Screenshots/01-users-list.png)
+ ![](Screenshots/07_WorkAccount_AddedSuccessfully.png)
 
 
 Compétences démontrées
