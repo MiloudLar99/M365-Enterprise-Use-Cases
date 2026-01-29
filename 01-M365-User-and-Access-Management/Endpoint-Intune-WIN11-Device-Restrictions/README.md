@@ -29,8 +29,6 @@ Lors de la création du profil :
 
  ![](Screenshots/02-Intune-Create-Device-Configuration-Profile.png) 
 
-
-
 ## Étape 3 – Informations de base du profil
 Renseigner les informations suivantes :
  - Nom : WIN11 – Baseline – Device Restrictions
@@ -49,10 +47,7 @@ Dans la section Paramètres de configuration, configurer les catégories nécess
  - Applications : Bloquer
  - Comptes : Bloquer
 
-
-
- 
- ![](Screenshots/04.1-Intune-Device-Restrictions-Settings-Details.png)  
+![](Screenshots/04.1-Intune-Device-Restrictions-Settings-Details.png)  
 
 ### Ces paramètres permettent de renforcer la posture de sécurité des postes utilisateurs.
 Cliquer sur Réviser + enregistrer.
@@ -67,9 +62,7 @@ Cliquer sur Réviser + enregistrer.
 
  ![](Screenshots/04-Intune-Device-Restrictions-Settings.png)  
 
- 
-
-### Ce profil sera appliqué à tous les membres du groupe ciblé.
+ ### Ce profil sera appliqué à tous les membres du groupe ciblé.
 
 ## Étape 6 – Règles d’applicabilité
 Dans cette étape, aucune règle spécifique n’est définie.
@@ -101,7 +94,7 @@ Depuis le portail Microsoft Azure, sur la machine virtuelle Windows :
 ## Étape 9 – Vérification de l’appartenance au groupe RDP
 Toujours via Run Command, exécuter une commande de vérification afin de confirmer que l’utilisateur est bien membre du groupe local Remote Desktop Users.
 
-![](Screenshots/11-Azure-VM-RDP-Group-Membership-Verification.png)
+![](Screenshots/11-Intune-Device-Checkin-Success.png)
 ### La sortie confirme que l’utilisateur AzureAD\JohnDoe dispose des droits de connexion à distance.
 
 ## Étape 10 - Vérification de l’état de check-in Intune
@@ -113,10 +106,7 @@ Résultat observé :
 - Non applicable : 0
 ### Cela confirme que la stratégie WIN11 – Baseline – Device Restrictions a bien été reçue par l’appareil.
 
-![](Screenshots/12-Intune-Device-Checkin-Success.png.png)
-
-
-
+![](Screenshots/12-Windows11-Network-Adapter-Restricted)
 
 ## Étape 11 - Tentative de modification réseau côté utilisateur
 Depuis le poste Windows 11 connecté avec l’utilisateur john.doe, une tentative de désactivation de l’adaptateur réseau est effectuée :
@@ -127,10 +117,7 @@ Action : Désactiver l’adaptateur Ethernet
   - L’action est bloquée par la stratégie Intune
   - Une élévation de privilèges est requise
 
-![](Screenshots/13-Windows11-Network-Adapter-Restricted.png)
-
-
-
+![](Screenshots/13-Windows11-UAC-Admin-Credentials.png)
 
 ## Étape 12 - Demande d’élévation (UAC) – Confirmation de la restriction
 Lors de la tentative de modification, Windows affiche une invite UAC demandant des identifiants administrateur.
@@ -139,11 +126,6 @@ Cela confirme que :
   - La stratégie Intune est effective et appliquée localement
 
 ![](Screenshots/13-Windows11-UAC-Admin-Credentials.png)
-
-
-
-
-
 
 ## Ce laboratoire démontre une gestion End-to-End :
 - Intune (stratégies)
