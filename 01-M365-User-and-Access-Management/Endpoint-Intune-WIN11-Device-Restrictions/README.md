@@ -50,23 +50,24 @@ Dans la section Paramètres de configuration, configurer les catégories nécess
  - Comptes : Bloquer
 
 
- ![](Screenshots/04-Intune-Device-Restrictions-Settings.png)  
+
+ 
  ![](Screenshots/04.1-Intune-Device-Restrictions-Settings-Details.png)  
 
-### Ces paramètres permettent de renforcer la posture de sécurité des postes utilisateurs.
+### Ces paramètres permettent de renforcer la posture de sécurité des postes utilisateurs.
 Cliquer sur Réviser + enregistrer.
 
 ## Étape 5 – Affectation du profil à un groupe Entra ID
-Dans l’étape Affectations :
-Cliquer sur Ajouter des groupes
-Sélectionner le groupe : SG-Administrative-Assistants
-Valider la sélection
+ - Dans l’étape Affectations :
+ - Cliquer sur Ajouter des groupes
+ - Sélectionner le groupe : SG-Administrative-Assistants
+ - Valider la sélection
 
-📸 Captures associées :
+ ![](Screenshots/04-Intune-Device-Restrictions-Settings.png)  
 
-![](Screenshots/05-EntraID-Security-Group-Members.png.png)  
+?? ![](Screenshots/05-EntraID-Security-Group-Members.png)  
 
-![](Screenshots/06-Intune-Assign-Policy-To-Security-Group.png)  
+?? ![](Screenshots/06-Intune-Assign-Policy-To-Security-Group.png)  
 
 ### Ce profil sera appliqué à tous les membres du groupe ciblé.
 
