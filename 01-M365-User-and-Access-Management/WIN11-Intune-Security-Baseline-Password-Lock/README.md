@@ -54,7 +54,7 @@ Laisser les balises par défaut ou en appliquer selon l’organisation.
 # Étape 7 – Affecter le profil
   - Groupe inclus : SG-Administrative-Assistants
   - Aucun groupe exclu
-  - 
+    
  ![](Screenshots/07-Intune-Configuration-Profile-Assignments.png)
 
 # Étape 8 – Vérifier la création du profil
