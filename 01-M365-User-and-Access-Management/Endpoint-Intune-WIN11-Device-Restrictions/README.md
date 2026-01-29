@@ -89,10 +89,11 @@ Cliquer sur Suivant pour continuer.
 
 ## Étape 8 – Ajout de l’utilisateur Entra ID au groupe local RDP (Azure VM)
 Depuis le portail Microsoft Azure, sur la machine virtuelle Windows :
-Ouvrir Exécuter la commande
-Lancer un script PowerShell pour ajouter l’utilisateur Entra ID au groupe Remote Desktop Users
+ - Ouvrir Exécuter la commande
+ - Lancer un script PowerShell pour ajouter l’utilisateur Entra ID au groupe Remote Desktop Users
 
 ![](Screenshots/08-Intune-Policy-Review-Summary.png)
+
 ![](Screenshots/09-Azure-VM-Run-Command-Add-RDP-User.png)
 
 ### Cette étape permet d’autoriser l’accès RDP à l’utilisateur synchronisé depuis Entra ID.
@@ -100,7 +101,7 @@ Lancer un script PowerShell pour ajouter l’utilisateur Entra ID au groupe Remo
 ## Étape 9 – Vérification de l’appartenance au groupe RDP
 Toujours via Run Command, exécuter une commande de vérification afin de confirmer que l’utilisateur est bien membre du groupe local Remote Desktop Users.
 
-![](Screenshots/10-Azure-VM-RDP-Group-Membership-Verification.png)
+![](Screenshots/11-Azure-VM-RDP-Group-Membership-Verification.png)
 ### La sortie confirme que l’utilisateur AzureAD\JohnDoe dispose des droits de connexion à distance.
 
 ## Étape 10 - Vérification de l’état de check-in Intune
@@ -112,7 +113,7 @@ Résultat observé :
 - Non applicable : 0
 ### Cela confirme que la stratégie WIN11 – Baseline – Device Restrictions a bien été reçue par l’appareil.
 
-![](Screenshots/11-Intune-Device-Checkin-Success.png.png)
+![](Screenshots/12-Intune-Device-Checkin-Success.png.png)
 
 
 
@@ -126,7 +127,7 @@ Action : Désactiver l’adaptateur Ethernet
   - L’action est bloquée par la stratégie Intune
   - Une élévation de privilèges est requise
 
-![](Screenshots/12-Windows11-Network-Adapter-Restricted.png)
+![](Screenshots/13-Windows11-Network-Adapter-Restricted.png)
 
 
 
