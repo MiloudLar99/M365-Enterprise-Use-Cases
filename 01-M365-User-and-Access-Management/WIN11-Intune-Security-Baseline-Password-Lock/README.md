@@ -6,7 +6,7 @@ Mettre en place une stratégie de sécurité minimale sur des appareils Windows 
   - Les limites de tentatives
   - Le temps d’inactivité
 
-# Étape 1 – Créer un profil de configuration
+## Étape 1 – Créer un profil de configuration
 Chemin :
   - Appareils > Windows > Configuration > Créer
   - Plateforme : Windows 10 et versions ultérieures
@@ -14,7 +14,7 @@ Chemin :
 
  ![](Screenshots/01-Intune-Create-Configuration-Profile-Windows.png)
 
-# Étape 2 – Ajouter les paramètres de sécurité
+## Étape 2 – Ajouter les paramètres de sécurité
 Dans le Sélecteur de paramètres :
   - Rechercher : Security
   - Catégorie : Sécurité
@@ -22,7 +22,7 @@ Dans le Sélecteur de paramètres :
 
  ![](Screenshots/02-Intune-Settings-Catalog-Security-Selection.png)
 
-# Étape 3 – Configurer le verrouillage de l’appareil (base)
+## Étape 3 – Configurer le verrouillage de l’appareil (base)
 Configurer les paramètres initiaux :
   - Mot de passe de l’appareil : Activé
   - Longueur minimale : 4 caractères
@@ -30,7 +30,7 @@ Configurer les paramètres initiaux :
 
  ![](Screenshots/03-Intune-Device-Lock-Password-Default-Settings.png)
 
-# Étape 4 – Renforcer la stratégie de mot de passe
+## Étape 4 – Renforcer la stratégie de mot de passe
 Appliquer une configuration plus sécurisée :
   - Mot de passe simple : Non autorisé
   - Expiration : 90 jours
@@ -40,24 +40,24 @@ Appliquer une configuration plus sécurisée :
 
  ![](Screenshots/04-Intune-Device-Lock-Password-Hardening.png)
 
-# Étape 5 – Définir les règles de verrouillage
+## Étape 5 – Définir les règles de verrouillage
   - Tentatives max : 10
   - Temps d’inactivité avant verrouillage : 5 minutes
 
  ![](Screenshots/05-Intune-Device-Lock-Attempts-And-Timeout.png)
 
-# Étape 6 – Balises d’étendue (optionnel)
+## Étape 6 – Balises d’étendue (optionnel)
 Laisser les balises par défaut ou en appliquer selon l’organisation.
 
  ![](Screenshots/06-Intune-Configuration-Scope-Tags.png)
 
-# Étape 7 – Affecter le profil
+## Étape 7 – Affecter le profil
   - Groupe inclus : SG-Administrative-Assistants
   - Aucun groupe exclu
     
  ![](Screenshots/07-Intune-Configuration-Profile-Assignments.png)
 
-# Étape 8 – Vérifier la création du profil
+## Étape 8 – Vérifier la création du profil
   - Le profil apparaît dans la liste des stratégies Windows.
 
  ![](Screenshots/08-Intune-Configuration-Profile-Created.png)
